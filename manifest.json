@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Lightweight Dark Mode Viewer",
+  "version": "1.0.0",
+  "description": "Instant dark mode for any website. No lag, no tracking, no bloat. Just one CSS filter applied at the click of a button.",
+  "permissions": ["activeTab", "storage", "tabs"],
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Lightweight Dark Mode Viewer"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": ["styles/dark.css"],
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  }
+}

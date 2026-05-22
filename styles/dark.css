@@ -1,0 +1,18 @@
+/* Lightweight Dark Mode Viewer - core filter */
+/* Single CSS filter applied to page */
+
+html {
+  filter: invert(1) hue-rotate(180deg) !important;
+  background: #111 !important;
+}
+
+/* Re-invert media so images/videos show their real colors */
+img,
+video,
+canvas,
+svg,
+iframe,
+picture,
+[style*='background-image'] {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
