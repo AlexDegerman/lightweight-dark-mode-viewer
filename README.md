@@ -4,7 +4,7 @@ A CSS-based dark mode extension for Firefox. One toggle, one stylesheet, no back
 
 **A lightweight extension with no unnecessary background processing.**
 
-> Designed for users who prefer minimal overhead over perfect visual accuracy.
+> Designed for users who prefer minimal performance impact over perfect visual accuracy.
 
 ---
 
@@ -33,7 +33,7 @@ Dark mode is a global visual overlay and must work on any page the user opens. T
 
 ## Install
 
-Firefox Add-ons (AMO): _(link added after publishing)_
+[Firefox Add-ons (AMO):](https://addons.mozilla.org/en-US/firefox/addon/lightweight-dark-mode-viewer/)
 
 ### Load manually for testing
 
